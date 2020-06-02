@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CovidTracker</string>
+    <string name="msg_no_internet">No Internet Available. Please try later</string>
+    <string name="msg_error">Something wrong! Error fetching data</string>
+
+    <string name="country_detail_title">Details for %s</string>
+    <string name="overview">Overview</string>
+    <string name="total_confirmed">Total Confirmed Cases</string>
+    <string name="total_recovered">Total Recovered Cases</string>
+    <string name="total_deaths">Total Death Cases</string>
+    <string name="new_confirmed">New Confirmed Cases</string>
+    <string name="new_recovered">New Recovered Cases</string>
+    <string name="new_deaths">New Death Cases</string>
+    <string name="label_covid">COVID19</string>
+    <string name="summary_confirmed">Confirmed Cases : <b>%s</b></string>
+    <string name="summary_new">New Cases : <b>%s</b></string>
+    <string name="summary_recovered">Recovered : <b>%s</b></string>
+    <string name="summary_deaths">Deaths : <b>%s</b></string>
+    <string name="date_updated">Last Updated : %s</string>
+    <string name="who_details">Watch out for more details <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">Here</a></string>
+    <string name="covid_symptoms">People can catch COVID-19 from others who have the virus. The disease spreads primarily through small droplets from the nose or mouth, which are expelled when an infected person coughs, sneezes, or speaks.\n\nIf you feel sick you should rest, drink plenty of fluid, and eat nutritious food.\nStay in a separate room from other family members.\nEveryone should keep a healthy lifestyle at home.</string>
+    <string name="covid_desc">This is an infectious disease caused by newly discovered Novel Corona Virus.\n\nMost people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.</string>
+    <string name="covid_title">Coronavirus disease (COVID-19)</string>
+    <string name="about_app">This app is developed to keep you updated with the latest worldwide updates on COVID19.\nThis app is still under development to provide you updated features.</string>
+    <string name="suffix">Stay Safe ! Stay Healthy !</string>
+    <string name="help_info">Protect yourself and others around you by knowing the facts and taking appropriate precautions.\n\nConsult your local medical authority for advice.\n\nFollow advice provided by your local public health agency.</string>
+    <string name="help_link">Useful Resources <a href="https://www.google.com/intl/en_in/covid19/resources">View</a></string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="top_countries">Top Countries</string>
+    <string name="global_statistics">Global Statistics</string>
+</resources>

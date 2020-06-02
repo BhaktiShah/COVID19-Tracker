@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".ui.HelpFragment">
+
+    <TextView
+        android:id="@+id/help_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_info" />
+
+    <ImageView
+        android:id="@+id/iv_help"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/help_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/help_info" />
+
+    <TextView
+        android:id="@+id/help_resources"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_help"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/help_link"
+        android:textStyle="bold" />
+
+
+    <TextView
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_resources"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/suffix"
+        android:textColor="@color/green"
+        android:textStyle="bold" />
+
+</RelativeLayout>

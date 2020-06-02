@@ -1,0 +1,2 @@
+rootProject.name='PersonalCovidTracker'
+include ':app'
